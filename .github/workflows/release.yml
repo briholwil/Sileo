@@ -102,7 +102,6 @@ jobs:
           git commit -m "build: sileo"
           git push
           cd ..
-          rf -rf amy-repo
 
       - name: Push To Sileo Repo
         env:
